@@ -21,7 +21,7 @@ XAMPP
 
 6: There will be meet means Alumni Gathering..So simply Admin Will send You Mail as well as It will update on our 		portal.  
 
-## Developers
+## Developer
 
-1:Aawez Khan
+Aawez Khan
 
