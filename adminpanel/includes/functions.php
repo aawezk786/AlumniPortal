@@ -1,0 +1,33 @@
+<?php
+
+    
+    define('DBINFO','mysql:host=localhost;dbname=alumni_portal');
+    define('DBUSER','root');
+    define('DBPASS','');
+
+    function performQuery($query){
+        $con = new PDO(DBINFO,DBUSER,DBPASS);
+        $stmt = $con->prepare($query);
+        if($stmt->execute()){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    function fetchAll($query){
+        $con = new PDO(DBINFO, DBUSER, DBPASS);
+        $stmt = $con->query($query);
+        return $stmt->fetchAll();
+    }
+        function comfirmquery($result)
+    {
+        global $connection;
+        
+        if(!$result)
+        {
+            die("Query Failed" . mysqli_error($connection));
+        }
+    }
+
+?>
