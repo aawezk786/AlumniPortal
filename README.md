@@ -23,16 +23,5 @@ XAMPP
 
 ## Developers
 
-1:Aawez Khan(Group Leader)
-2:Shahnawaz Khan
-3:Usama Thakur
-4:Tabrez Ansari
+1:Aawez Khan
 
-## Extra Guidance
-
-1:Mudassir Sir
-2:Alikarim Sir 
-
-## Under The Guidance
-
-1:Madhuri Mam
